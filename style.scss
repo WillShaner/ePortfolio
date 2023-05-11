@@ -190,3 +190,86 @@ footer {
 .show {
   display: block;
 }
+
+
+/* Reset default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set a modern font */
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+/* Add a background color or image */
+body {
+  background-color: #f7f7f7;
+  /* or background-image: url('path/to/image.jpg'); */
+}
+
+/* Center the content */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* Create a modern header */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+/* Style links */
+a {
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #666;
+}
+
+/* Add a modern button */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #666;
+}
+
+/* Style headings */
+h1,
+h2,
+h3 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Create a modern card */
+.card {
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+/* Add some spacing */
+p {
+  margin-bottom: 10px;
+}
